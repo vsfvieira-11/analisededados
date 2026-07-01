@@ -15,7 +15,6 @@ pasta_espectros = "CSV_Convertidos"  # pasta onde estão os arquivos CODIGO.csv
 
 # Usar o caminho do próprio script para abrir o arquivo no mesmo diretório
 caminho_excel = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'dados_enxofre.xlsx')
-print('Lendo arquivo:', caminho_excel)
 tabela_propriedades = pd.read_excel(caminho_excel)
 
 # garantir que o código fique como texto
